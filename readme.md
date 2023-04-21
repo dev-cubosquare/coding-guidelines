@@ -1,7 +1,6 @@
 # Cubosquare Coding Recommendations
 
 ## Table of Contents
---------------------
 - [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
 - [HTML Guidelines](#html-guidelines)
@@ -11,13 +10,11 @@
 
 
 ## Introduction
-----------------
 
 In order to maintain consistency and readability in the code of the Cubosquare web development team, we have established a set of coding guidelines for HTML and CSS. These guidelines are based on industry standards and best practices, and should be followed by all members of the team.
 
 
 ## HTML Guidelines
-------------------
 
 1. Use semantic markup whenever possible. This means using HTML elements that have meaning and convey the purpose of the content, rather than using generic divs or spans.
 
@@ -40,7 +37,6 @@ In order to maintain consistency and readability in the code of the Cubosquare w
 1. Use proper heading tags for page structure: `<h1>` for the main title, `<h2>` for section titles, and so on.
 
 ## CSS Guidelines
------------------
 
 1. Use BEM naming convention for class names. A BEM class name consists of three parts: the block, the element, and the modifier. For example, `.menu__item--active` would be a BEM class name for an active menu item.
 
@@ -61,7 +57,6 @@ In order to maintain consistency and readability in the code of the Cubosquare w
 1. Avoid using `!important` unless absolutely necessary. It can make the code difficult to maintain and override.
 
 ## File Structure
------------------
 
 Here is a recommended file structure for the Cubosquare web development team:
 
@@ -83,6 +78,5 @@ Here is a recommended file structure for the Cubosquare web development team:
 ```
 
 ## Conclusion
--------------
 
 By following these guidelines and file structure, we can ensure that our HTML and CSS code is consistent, readable, and maintainable. Using two spaces for indentation will help to create a consistent and readable codebase. The recommended file structure will help to keep our project organized and easy to navigate. This will make it easier for team members to work on the codebase, as well as for future developers who may need to make changes or additions.
