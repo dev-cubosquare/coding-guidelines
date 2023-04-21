@@ -38,7 +38,7 @@ In order to maintain consistency and readability in the code of the Cubosquare w
 
 ## CSS Guidelines
 
-1. Use BEM naming convention for class names. A BEM class name consists of three parts: the block, the element, and the modifier. For example, `.menu__item--active` would be a BEM class name for an active menu item.
+1. Use [BEM naming convention](https://getbem.com/) for class names. A BEM class name consists of three parts: the block, the element, and the modifier. For example, `.menu__item--active` would be a BEM class name for an active menu item.
 
 1. Use meaningful and descriptive class names. Avoid using single letters or abbreviations.
 
