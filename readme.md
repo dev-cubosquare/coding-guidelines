@@ -32,7 +32,7 @@ In order to maintain consistency and readability in the code of the Cubosquare w
 
 1. Use UTF-8 as the character encoding: `<meta charset="utf-8">`
 
-1. Use alt attributes for all images: `<img src="example.jpg" alt="Description of the image">` if the image is decorative, use an empty alt attribute: `<img src="example.jpg" alt="">`
+1. Use alt attributes for all images: `<img src="./img/example.jpg" alt="Description of the image">` if the image is decorative, use an empty alt attribute: `<img src="./img/example.jpg" alt="">`
 
 1. Use the HTML5 `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>` elements to define the structure of the page.
 
@@ -43,6 +43,8 @@ In order to maintain consistency and readability in the code of the Cubosquare w
 1. Do not use `<table>` tags for layout. Instead, use CSS to position elements.
 
 1. Do not use `<font>` tag or the `<center>` tag, as they are considered deprecated and are not supported in modern web development. Instead, use CSS to style and position content on your web pages.
+
+1. Use relative URLs for all links and images. For example, use `src="./img/example.jpg"` instead of `src="https://example.com/img/example.jpg"`.
 
 
 ## CSS Guidelines
