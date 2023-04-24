@@ -71,7 +71,7 @@ In order to maintain consistency and readability in the code of the Cubosquare w
 
 1. Don't use reset but if you want use normalize.css instead.
 
-1. Use media queries to create responsive designs that adapt to different screen sizes.
+1. Use media queries to create responsive designs that adapt to different screen sizes. There is no pre-defined breakpoints, you can define breakpoints according to design.
 
 1. Avoid using `!important` unless absolutely necessary. It can make the code difficult to maintain and override.
 
@@ -86,13 +86,18 @@ Here is a recommended file structure for the Cubosquare web development team:
 - css/
   - styles.css
   - ...
+- img/
+  - logo.png
+  - background.jpg
+  - ...
 - js/
   - script.js
   - navigation.js
   - ...
-- img/
-  - logo.png
-  - background.jpg
+- scss/
+  - styles.scss
+  - _variables.scss
+  - _header.scss
   - ...
 ```
 
