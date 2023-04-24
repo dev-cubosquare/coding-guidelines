@@ -47,19 +47,27 @@ In order to maintain consistency and readability in the code of the Cubosquare w
 1. Use relative URLs for all links and images. For example, use `src="./img/example.jpg"` instead of `src="https://example.com/img/example.jpg"`.
 
 
-## CSS Guidelines
-
-1. Use [BEM naming convention](https://getbem.com/) for class names. A BEM class name consists of three parts: the block, the element, and the modifier. For example, `.menu__item--active` would be a BEM class name for an active menu item.
+## CSS/SCSS Guidelines
 
 1. Use meaningful and descriptive class names. Avoid using single letters or abbreviations.
 
+1. Use [BEM naming convention](https://getbem.com/) for class names. A BEM class name consists of three parts: the block, the element, and the modifier. For example, `.menu__item--active` would be a BEM class name for an active menu item.
+
 1. Use two spaces for indentation to make the code more readable. Indent nested rules by one level.
 
-1. Use comments to explain the purpose of each section of code.
+1. Use lowercase for all CSS selectors and properties.
+
+1. Use of scss is recommended. If you are using scss, use separate files for each component or section of the website. For example, you could have a `navigation.scss` file for the navigation bar, a `footer.scss` file for the footer, and so on.
+
+1. Use variables to define colors, fonts, and other values that are used throughout the website. This will make it easier to make changes to the design in the future. For example, you could define a `$primary-color` variable for the primary color used throughout the website. or in css `--primary-color: #000;` and use it like this `color: var(--primary-color);`
+
+1. Keep the code as simple as possible. Avoid using unnecessary selectors or properties.
+
+1. Keep the code modular. Avoid using long selectors that are specific to a particular page or section of the website.
+
+1. Use single line comments to explain the purpose of each section of code.
 
 1. Use shorthand properties whenever possible to reduce the amount of code. For example, use `margin: 0` instead of `margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;`.
-
-1. Use lowercase for all CSS selectors and properties.
 
 1. Don't use reset but if you want use normalize.css instead.
 
