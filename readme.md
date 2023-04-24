@@ -1,7 +1,6 @@
 # Cubosquare Coding Guidelines
 
 ## Table of Contents
-- [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
 - [HTML Guidelines](#html-guidelines)
 - [CSS Guidelines](#css-guidelines)
