@@ -35,13 +35,43 @@ In order to maintain consistency and readability in the code of the Cubosquare w
 
 1. Use the HTML5 `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>` elements to define the structure of the page.
 
+1. Do not nest `<header>`, `<section>`, `<footer>` elements inside each other.
+
+1. Use the `<div>` element to group elements together when there is no other suitable element available.
+
+1. Use the `<span>` element to group inline elements together when there is no other suitable element available.
+
+1. Use the `<strong>` element to indicate important text. If the text is bold for stylistic reasons, use CSS instead.
+
+1. Use the `<em>` element to indicate emphasized text. If the text is italic for stylistic reasons, use CSS instead.
+
+
 1. Use proper heading tags for page structure: `<h1>` for the main title, `<h2>` for section titles, and so on.
+
+1. Use `<p>` tags for paragraphs of text.
+
+1. Use `<ul>` and `<ol>` tags for unordered and ordered lists, respectively.
+
+1. Use `<a>` tags for links. External links should have the `target="_blank"` attribute to open in a new tab.
+
+1. Use `<button>` tags for buttons. Use the `type="button"` attribute to prevent the button from submitting a form if it is not supposed to do so.
+
+1. Use `<form>` tags for forms. Use the `action` attribute to specify the URL where the form data should be submitted. Use the `method` attribute to specify the HTTP method to use when submitting the form data.
+
+1. Use `<input>` tags for form inputs. Use the `type` attribute to specify the type of input. Use the `name` attribute to specify the name of the input. All form inputs should have a `name` attribute. 
+
+1. Use `<label>` tags for form labels. Use the `for` attribute to specify the `id` of the input that the label is for.
+
+1. Use `<select>` tags for dropdown menus. Use `<option>` tags for the options in the dropdown menu.
+
+1. Use `<table>` tags for tabular data. Use `<thead>`, `<tbody>`, and `<tfoot>` tags to define the table header, body, and footer, respectively. Use `<th>` tags for table headers. Use `<tr>` tags for table rows. Use `<td>` tags for table cells.
+
 
 1. Do not use `<br>` tags for spacing. Instead, use CSS to add spacing between elements.
 
 1. Do not use `<table>` tags for layout. Instead, use CSS to position elements.
 
-1. Do not use `<font>` tag or the `<center>` tag, as they are considered deprecated and are not supported in modern web development. Instead, use CSS to style and position content on your web pages.
+1. Do not use deprecated HTML elements or attributes. For example, do not use `<center>` tags or the `align` attribute.
 
 1. Use relative URLs for all links and images. For example, use `src="./img/example.jpg"` instead of `src="https://example.com/img/example.jpg"`.
 
@@ -102,4 +132,4 @@ Here is a recommended file structure for the Cubosquare web development team:
 
 ## Conclusion
 
-By following these guidelines and file structure, we can ensure that our HTML and CSS code is consistent, readable, and maintainable. Using two spaces for indentation will help to create a consistent and readable codebase. The recommended file structure will help to keep our project organized and easy to navigate. This will make it easier for team members to work on the codebase, as well as for future developers who may need to make changes or additions.
+These guidelines are not set in stone. They are meant to be a starting point for the Cubosquare web development team. Feel free to make changes to these guidelines as needed.
