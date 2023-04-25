@@ -128,6 +128,7 @@ Here is a recommended file structure for the Cubosquare web development team:
   - _variables.scss
   - _header.scss
   - ...
+  
 ```
 
 ## Conclusion
