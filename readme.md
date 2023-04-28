@@ -54,6 +54,8 @@ In order to maintain consistency and readability in the code of the Cubosquare w
 
 1. Use `<a>` tags for links. External links should have the `target="_blank"` attribute to open in a new tab.
 
+1. Use `<input>` for buttons when there on specific reason to use `<button>`. Use the `type="submit"` attribute to submit a form when the button is clicked.
+
 1. Use `<button>` tags for buttons. Use the `type="button"` attribute to prevent the button from submitting a form if it is not supposed to do so.
 
 1. Use `<form>` tags for forms. Use the `action` attribute to specify the URL where the form data should be submitted. Use the `method` attribute to specify the HTTP method to use when submitting the form data.
